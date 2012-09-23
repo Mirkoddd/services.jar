@@ -134,7 +134,7 @@
 
 .field static final MAX_RECENT_TASKS:I = 0x14
 
-.field static final MAX_SERVICE_INACTIVITY:I = 0x1b7740
+.field static final MAX_SERVICE_INACTIVITY:I = 0x5265c00
 
 .field static final MONITOR_CPU_MAX_TIME:J = 0xfffffffL
 
@@ -10043,7 +10043,7 @@
 
     iget-wide v5, v0, Lcom/android/server/am/ServiceRecord;->lastActivity:J
 
-    const-wide/32 v28, 0x1b7740
+    const-wide/32 v28, 0x5265c00
 
     add-long v5, v5, v28
 
@@ -10381,7 +10381,7 @@
 
     iget-wide v5, v0, Lcom/android/server/am/ServiceRecord;->lastActivity:J
 
-    const-wide/32 v28, 0x1b7740
+    const-wide/32 v28, 0x5265c00
 
     add-long v5, v5, v28
 
@@ -66656,7 +66656,7 @@
     .line 4685
     if-gez p1, :cond_15
 
-    const/16 v0, 0x19
+    const/16 v0, 0x32
 
     :goto_c
     :try_start_c
